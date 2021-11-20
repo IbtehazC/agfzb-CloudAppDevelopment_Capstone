@@ -6,6 +6,12 @@
       <a class="navbar-brand" href="{% url 'djangoapp:index' %}"
         >Dealership Review</a
       >
+      <a class="navbar-brand" href="{% url 'djangoapp:about' %}"
+        >About</a
+      >
+      <a class="navbar-brand" href="{% url 'djangoapp:contact' %}"
+        >Contact</a
+      >
     </div>
     <ul class="nav navbar-nav navbar-right">
       {% if user.is_authenticated %}
